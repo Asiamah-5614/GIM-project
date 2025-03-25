@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -92,6 +93,14 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
+
+AWS_ACCESS_KEY_ID = 'AKIATTZLVZVTEW47KFPN'
+AWS_SECRET_ACCESS_KEY = '2GfslvQgyZPRp+efVc9d1YAH2G8pwrp/xj7Jopw'
+AWS_STORAGE_BUCKET_NAME = 's3-django-user'
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
