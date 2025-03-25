@@ -1,0 +1,196 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page - GIM Educational Consulting</title>
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static './asset/apple-touch-icon.png'%}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static './asset/favicon-32x32.png'%}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static './asset/favicon-16x16.png'%}">
+    <link rel="icon" type="image/png" sizes="19x19" href="{% static './asset/android-chrome-19x19.png' %}">
+    <link rel="icon" type="image/png" sizes="512x512" href="{%static './asset/android-chrome-512x512.png'%}">
+    <link rel="manifest" href="./asset/site.webmanifest">
+</head>
+<body>
+    <!-- HEADER FOR GIM PROJECT -->
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <div class="logo-img">
+                <a href="{% url 'home' %}" class="logo"><img src="{% static './asset/GIM LOGO.jpg' %}" alt="GIM LOGO"></a>
+            </div>
+            <ul class="navbar">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'service' %}" class="active">Our Services</a></li>
+                <li><a href="{% url 'blog' %}">Blog</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+            <i class='bx bx-search' id="search-icon"></i>
+            <div class="search-box container">
+                <input type="search" name="search" id="" placeholder="Search here...">
+            </div>
+        </div>
+    </header>
+
+    <section class="service-1">
+        <div class="service-2">
+            <h1>Service Page</h1>
+        </div>
+    </section>
+
+    <!-- Informational input section -->
+
+    <section class="information">
+        <div class="heading">
+            <h2>Our Service</h2>
+            <p>
+                At GiM Services, we provide a comprehensive range of educational consulting and study abroad recruitment services to help students achieve their academic dreams. Our expert team ensures a smooth and efficient process, guiding you through every step of your educational journey.
+            </p>
+        </div>
+
+        <div class="information-1 container">
+            <div class="inform">
+                <h2>Educational Consulting</h2>
+                <p>
+                    We offer personalized consulting services to help students and professionals make informed decisions about their education and career paths. GiM Services was founded with a vision to bridge the gap between ambitious students and world-class educational opportunities. Our team consists of experienced education consultants who provide expert guidance on university admissions, scholarships, and career pathways.
+                </p>
+
+                <h4>
+                    Career Counseling & Academic Planning
+                </h4>
+                <p>•	Personalized career guidance based on individual strengths, interests, and market trends.</p>
+                <p>•	Assistance in choosing the right courses, programs, and institutions for long-term success.</p>
+
+                <h4>
+                    University Admissions Support
+                </h4>
+                <p>•	Guidance on selecting the best-fit universities and programs worldwide.</p>
+                <p>•	Step-by-step assistance with application processes, document preparation, and submission.</p>
+
+                <h4>
+                    Test Preparation & Coaching
+                </h4>
+                <p>•	Training and resources for standardized tests (IELTS, TOEFL, SAT, GRE, GMAT, etc.).</p>
+                <p>•	Mock exams, study materials, and expert strategies for high scores.</p>
+
+                <h4>
+                    Visa & Interview Preparation
+                </h4>
+                <p>•	Expert guidance on visa application processes.</p>
+                <p>•	One-on-one coaching for university and visa interviews.</p>
+            </div>
+
+            <div class="inform">
+                <h2>Study Abroad Recruitment</h2>
+                <p>
+                    GiM Services provides expert assistance to students looking to study in prestigious universities across the globe.
+                </p>
+
+                <h4>
+                    Study Destination Consultation
+                </h4>
+                <p>	Personalized guidance on choosing the best study destination based on:</p>
+                <p>•	Career goals</p>
+                <p>•	Budget and tuition costs</p>
+                <p>•	Post-graduation work opportunities</p>
+                <p>•	Cultural and lifestyle preferences</p>
+
+        
+                <p>	Information on education systems and immigration policies for:</p>
+                <p>•	<b>United States</b> – Ivy League, public & private universities, OPT work permits</p>
+                <p>•	<b>United Kingdom</b> – Russell Group universities, student visa pathways</p>
+                <p>•	<b>Canada</b> – PR-friendly study routes, co-op programs, affordable tuition</p>
+                <p>•	<b>Australia</b> – Top universities, high employability, post-study work rights</p>
+                <p>•	<b>Europe </b>– Affordable tuition, study + work opportunities, English-taught programs</p>
+                <p>•	<b>Malaysia</b> - Full and Partial Tuition Scholarships guidance</p>
+                <p>•	<b>China</b> - Full and Partial Government Scholarships</p>
+
+                <h4>
+                    Application Process & Documentation
+                </h4>
+                <p>	End-to-end assistance in <b>undergraduate</b>, <b>postgraduate</b>, and <b>PhD applications</b>.
+                    Support with all required documents, including:
+                </p>
+                <p>•	Academic Transcripts & Certificates</p>
+                <p>•	Personal Statement & Statement of Purpose (SOP)</p>
+                <p>•	Recommendation Letters</p>
+                <p>•	Research Proposals (for PhD applicants)</p>
+
+                <h4>
+                    Scholarship & Financial Aid Assistance
+                </h4>
+                <p>•	Assistance in identifying and applying for merit-based, need-based, and government scholarships.</p>
+                <p>•	Guidance on university grants, tuition waivers, and external funding options.
+                    Support in securing education loans and financial planning.
+                </p>
+
+                <h4>
+                    Pre-Departure & Post-Arrival Support
+                </h4>
+                <p>	<b>Pre-departure briefings</b> to help students transition smoothly into their new academic environment.
+                </p>
+
+                <p>
+                    <b>Assistance with:</b>
+                </p>
+                <p>
+                    •	Flight bookings & travel arrangements
+                </p>
+                <p>
+                    •	Student accommodation & housing
+                </p>
+                <p>
+                    •	Banking & health insurance setup Ongoing student support services to ensure a smooth settlement in a new country.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <div class="logo-img-footer">
+                    <a href="{% url 'home' %}" class="logo"><img src="{% static './asset/GIM LOGO.jpg'%}" alt="GIM LOGO"></a>
+                </div>
+                <div class="info">
+                    <h4>GIM Educational Consulting</h4>
+                    <p>
+                        Let GiM Services guide you toward your academic and career success. Contact us now to begin your education abroad journey!
+                    </p>
+                </div>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="{% url 'home' %}" class="active">Home</a>
+                <a href="{% url 'about' %}">About</a>
+                <a href="{% url 'service' %}">Our Services</a>
+                <a href="{% url 'blog' %}">Blog</a>
+                <a href="{% url 'contact' %}">Contact</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p><a href="tel:+60142186002"><i class='bx bx-phone'></i> : +60 14-218 6002</a></p>
+                <p><a href="tel:+233500029905"><i class='bx bx-phone'></i> : +233 50 002 9905</a></p>
+                <p><a href="mail:gimeduconsult@gmail.com"><i class='bx bx-envelope' ></i> : gimeduconsult@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&copy; GIM Education Consult 2025</p>
+    </div>
+
+    <script src="{% static './css/index.js/' %}"></script>
+</body>
+</html>
