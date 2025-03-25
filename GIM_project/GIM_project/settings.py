@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_$u(!=41$6i&(wp7f7+@w9yg700wtn!fmy#8ov+&_e2!0#6$qd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['16.171.7.249', 'gimeduconsult.com', 'www.gimeduconsult.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -76,14 +76,14 @@ WSGI_APPLICATION = 'GIM_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-""" DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-} """
+}
 
-DATABASES = {
+""" DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'gimproject',
@@ -92,14 +92,14 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}
+} """
 
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+""" DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
 
 AWS_ACCESS_KEY_ID = 'AKIATTZLVZVTEW47KFPN'
 AWS_SECRET_ACCESS_KEY = '2GfslvQgyZPRp+efVc9d1YAH2G8pwrp/xj7Jopw'
-AWS_STORAGE_BUCKET_NAME = 's3-django-user'
+AWS_STORAGE_BUCKET_NAME = 's3-django-user' """
 
 
 # Password validation
