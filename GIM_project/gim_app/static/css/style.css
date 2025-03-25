@@ -660,10 +660,9 @@ header.shadow .navbar a{
     padding: 10px 12px 15px 12px;
 }
 
-.blog_post .post_sec .blog_info .blog_img{
-    width: 500px;
-    aspect-ratio: 1/1;
-    overflow: hidden;
+.blog_post .post_sec .blog_info .blog_img img{
+    width: 150px;
+    height: 150px;
 }
 
 .blog_post .post_sec .blog_info .info-heading a h2{
