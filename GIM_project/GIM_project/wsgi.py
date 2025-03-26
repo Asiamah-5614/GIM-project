@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/
 import os
 import sys
 
-sys.path.append('/opt/render/project/src')
+sys.path.append('/opt/render/GIM_project/src')
 
 from django.core.wsgi import get_wsgi_application
 
